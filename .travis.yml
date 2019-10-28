@@ -26,3 +26,5 @@ script:
   - flake8 .
 notifications:
   email: false
+virtualenv:
+  system_site_packages: true
